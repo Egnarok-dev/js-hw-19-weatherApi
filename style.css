@@ -1,0 +1,140 @@
+body {
+    background-color: #E8E8E8;
+    font-family: "Ubuntu", sans-serif;
+    font-family: 'Preahvihear', sans-serif;
+  }
+  
+  .container {
+    width: 270px;
+    height: auto;
+    margin: 50px auto;
+    padding: 24px;
+    background-color: #cedae4;
+    z-index: 1;
+    position: relative;
+    border-radius: 25px;
+  }
+  .container .search-form {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .container .search-form h1 {
+    font-weight: 700;
+    font-size: 52px;
+    margin: 0 auto 22px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .container .search-form h1 span {
+    font-weight: 400;
+    font-size: 40px;
+  }
+  .container .search-form .wheather-input {
+    width: 130px;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-left: 5px;
+  }
+  .container .search-form .wheater-btn {
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 11px;
+    transition: all 0.5s;
+  }
+  .container .search-form .wheater-btn:hover {
+    background-color: #F9C23C;
+  }
+
+.cardContainer {
+    margin-top: 24px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    position: relative;
+    width: 250px;
+    /* height: 250px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    background-color: #f5f5f5;
+    border: 1px solid rgba(255, 255, 255, 0.089);
+    cursor: pointer;
+  }
+  
+  .city {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 1.2px;
+    color: rgb(70, 69, 69);
+    /* color: white; */
+    margin: 0;
+    text-align: center;
+  }
+  
+  .weather {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    color: rgb(50, 50, 50);
+  }
+  
+  .temp {
+    font-size: 32px;
+    /* color: white; */
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+  
+  .minmaxContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .min,.max {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    justify-content: center;
+    text-align: center;
+    padding: 0px 15px;
+    gap: 4px;
+  }
+
+ 
+  
+  .max {
+    border-left: 2px solid rgb(127, 126, 126);
+  }
+  
+  .maxHeading,.minHeading {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(70, 69, 69);
+    /* color: white; */
+  }
+  
+  .maxTemp,.minTemp {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(50, 50, 50);
+  }
+  
